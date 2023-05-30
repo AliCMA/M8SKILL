@@ -1,3 +1,6 @@
+//Hier defineer ik de class API 
+//De getData maakt een URL die  gebruikt om gegevens op te halen van die specifieke URL.
+
 class API{
     async getData(url) {
         let dataToBeReturned = {}

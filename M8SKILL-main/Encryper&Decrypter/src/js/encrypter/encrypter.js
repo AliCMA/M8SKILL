@@ -1,4 +1,5 @@
 class Encrypter{
+    //Hier gebeurd het zelfde zoals bij de decrypter.js
     encrypt(stringToEncrypt) {
         stringToEncrypt = stringToEncrypt.toUpperCase();
         let encryptedString = [];

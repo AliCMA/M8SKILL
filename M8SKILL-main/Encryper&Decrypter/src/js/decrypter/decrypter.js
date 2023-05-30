@@ -1,8 +1,12 @@
 class Decrypter{
+    // Dit functie decrypt  wordt gebruikt om een versleutelde string te ontsleutelen.
+    //De functie neemt variabele namelijk stringToDecrypt, die de versleutelde string bevat die moet worden ontsleuteld.
     decrypt(stringToDecrypt) {
         stringToDecrypt = stringToDecrypt.toUpperCase();
         let decryptedString = [];
-
+    //Hier is een loop die wordt gebruikt om de ontsleuteling van een string uit te voeren.
+    //De variabelen begint met het beginnen van een tellervariabele i op 0. 
+    // De variabel zal worden uitgevoerd zolang i kleiner is dan de lengte van de stringToDecrypt.
         for (let i = 0; i < stringToDecrypt.length; i++){
             switch (stringToDecrypt[i]) {
                 case "D":
